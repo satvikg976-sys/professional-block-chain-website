@@ -1820,7 +1820,7 @@ transform:translateY(0);
 }
 
 .menu-btn{
-    display:none;
+display:none !important;
 }
 
 .nav-links{
