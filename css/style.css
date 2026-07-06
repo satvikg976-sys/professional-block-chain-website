@@ -1862,67 +1862,110 @@ transform:translateY(0);
 
 }
 
-/* ===========================
-   MOBILE RESPONSIVE
-=========================== */
+/*=========================================================
+                RESPONSIVE DESIGN
+=========================================================*/
 
-@media (max-width:768px){
+@media(max-width:992px){
 
-    .navbar{
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        padding:15px 20px;
+    .hero h1{
+
+        font-size:2.5rem;
+
     }
 
-    .logo h1{
-        font-size:32px;
-    }
+    .slider-container{
 
-    .nav-links{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:10px;
-        width:100%;
-        margin-top:15px;
-    }
-
-    .nav-links a{
-        font-size:14px;
-        padding:8px 14px;
-    }
-
-    .hero{
-        display:flex;
         flex-direction:column;
-        padding:40px 20px;
+
     }
 
-    .hero-content{
+    #sliderImage{
+
         width:100%;
-    }
 
-    .hero-content h1{
-        font-size:42px;
-        line-height:1.2;
-    }
+        height:350px;
 
-    .hero-content p{
-        font-size:18px;
-    }
-
-    .hero-image{
-        width:100%;
-        margin-top:30px;
-    }
-
-    .hero-image img{
-        width:100%;
-        height:auto;
     }
 
 }
+
+
+@media(max-width:768px){
+
+header{
+
+}
+
+.card{
+    padding:25px;
+}
+
+.gallery-box{
+    width:100%;
+    height:250px;
+}
+
+.slide-btn{
+    width:50px;
+    height:50px;
+    font-size:24px;
+}
+
+.card h2{
+    font-size:1.8rem;
+}
+
+}
+
+@media(max-width:480px){
+
+    .logo{
+
+        font-size:1.5rem;
+
+    }
+
+    nav a{
+
+        font-size:.9rem;
+
+    }
+
+    .hero h1{
+
+        font-size:1.7rem;
+
+    }
+
+    .hero p{
+
+        font-size:.9rem;
+
+    }
+
+    #sliderImage{
+
+        height:230px;
+
+    }
+
+    .card{
+
+        padding:20px;
+
+    }
+
+    input,
+    textarea{
+
+        font-size:.95rem;
+
+    }
+
+}
+
+
 /* =====================================================
    END OF STYLE.CSS
 ===================================================== */
