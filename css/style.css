@@ -1801,13 +1801,34 @@ transform:translateY(0);
     display:block;
 
 }
-/* ===========================
-   Mobile Navigation
-=========================== */
-@media(max-width:768px){
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+.menu-btn{
+
+    display:none;
+
+    font-size:30px;
+
+    color:#fff;
+
+    cursor:pointer;
+
+}
+
+@media screen and (max-width:768px){
 
     .menu-btn{
+
         display:block;
+
+    }
+
+    .navbar{
+
+        position:relative;
+
     }
 
     .nav-links{
@@ -1820,7 +1841,7 @@ transform:translateY(0);
 
         width:100%;
 
-        background:#0b1020;
+        background:#070B18;
 
         display:none;
 
@@ -1828,11 +1849,13 @@ transform:translateY(0);
 
         align-items:center;
 
-        padding:20px 0;
-
         gap:20px;
 
-        z-index:999;
+        padding:25px 0;
+
+        border-top:1px solid rgba(255,255,255,.1);
+
+        z-index:9999;
 
     }
 
@@ -1843,7 +1866,6 @@ transform:translateY(0);
     }
 
 }
-
 /* =====================================================
    END OF STYLE.CSS
 ===================================================== */
