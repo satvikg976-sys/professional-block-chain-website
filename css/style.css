@@ -1804,44 +1804,46 @@ transform:translateY(0);
 /* ===========================
    Mobile Navigation
 =========================== */
+@media(max-width:768px){
 
-.menu-toggle{
-    display:none;
-    font-size:28px;
-    color:#fff;
-    cursor:pointer;
-}
-
-@media (max-width:768px){
-
-    .menu-toggle{
+    .menu-btn{
         display:block;
     }
 
     .nav-links{
 
         position:absolute;
-        top:80px;
+
+        top:90px;
+
         left:0;
+
         width:100%;
+
         background:#0b1020;
 
         display:none;
+
         flex-direction:column;
-        text-align:center;
+
+        align-items:center;
+
         padding:20px 0;
-        z-index:1000;
+
+        gap:20px;
+
+        z-index:999;
+
     }
 
-    .nav-links.active{
+    .nav-links.show{
+
         display:flex;
-    }
 
-    .nav-links li{
-        margin:15px 0;
     }
 
 }
+
 /* =====================================================
    END OF STYLE.CSS
 ===================================================== */
