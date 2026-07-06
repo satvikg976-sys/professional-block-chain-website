@@ -1802,7 +1802,7 @@ transform:translateY(0);
 
 }
 /* =========================
-   MOBILE NAVIGATION
+   RESPONSIVE NAVBAR
 ========================= */
 
 .menu-btn{
@@ -1817,7 +1817,7 @@ transform:translateY(0);
 
 }
 
-@media screen and (max-width:768px){
+@media (max-width:768px){
 
     .menu-btn{
 
@@ -1826,6 +1826,8 @@ transform:translateY(0);
     }
 
     .navbar{
+
+        width:90%;
 
         position:relative;
 
@@ -1841,7 +1843,7 @@ transform:translateY(0);
 
         width:100%;
 
-        background:#070B18;
+        background:#0b1020;
 
         display:none;
 
@@ -1849,11 +1851,11 @@ transform:translateY(0);
 
         align-items:center;
 
-        gap:20px;
-
         padding:25px 0;
 
-        border-top:1px solid rgba(255,255,255,.1);
+        gap:20px;
+
+        border-radius:0 0 15px 15px;
 
         z-index:9999;
 
@@ -1862,6 +1864,22 @@ transform:translateY(0);
     .nav-links.show{
 
         display:flex;
+
+    }
+
+    .nav-links li{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .nav-links a{
+
+        display:block;
+
+        padding:15px;
 
     }
 
