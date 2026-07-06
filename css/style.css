@@ -212,6 +212,13 @@ font-size:28px;
 cursor:pointer;
 
 }
+@media (max-width:768px){
+
+.logo span{
+    font-size:20px !important;
+}
+
+}
 
 /* ================= HERO ================= */
 
@@ -1887,13 +1894,6 @@ display:none !important;
     flex:0 0 auto;
     scroll-snap-align:center;
 
-}
-
-}
-@media (max-width:768px){
-
-.logo span{
-    font-size:20px !important;
 }
 
 }
