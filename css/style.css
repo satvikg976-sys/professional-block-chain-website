@@ -1804,112 +1804,66 @@ transform:translateY(0);
 /* ==========================================
    RESPONSIVE NAVIGATION 
 ========================================== */
+@media (max-width:768px){
 
-
-/*=========================================================
-                RESPONSIVE DESIGN
-=========================================================*/
-
-@media(max-width:992px){
-
-    .hero h1{
-
-        font-size:2.5rem;
-
-    }
-
-    .slider-container{
-
-        flex-direction:column;
-
-    }
-
-    #sliderImage{
-
-        width:100%;
-
-        height:350px;
-
-    }
-
+.navbar{
+    width:95%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:auto;
+    padding:15px 0;
 }
 
-
-@media(max-width:768px){
-
-header{
-
+.logo{
+    margin-bottom:15px;
 }
 
-.card{
-    padding:25px;
+.menu-btn{
+    display:none;
 }
 
-.gallery-box{
+.nav-links{
+    display:flex !important;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
     width:100%;
-    height:250px;
 }
 
-.slide-btn{
-    width:50px;
-    height:50px;
-    font-size:24px;
+.nav-links li{
+    list-style:none;
 }
 
-.card h2{
-    font-size:1.8rem;
+.nav-links a{
+    padding:8px 12px;
+    font-size:14px;
+}
+
+.hero{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.hero-left h1{
+    font-size:38px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-stats{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.footer-container{
+    grid-template-columns:1fr;
 }
 
 }
-
-@media(max-width:480px){
-
-    .logo{
-
-        font-size:1.5rem;
-
-    }
-
-    nav a{
-
-        font-size:.9rem;
-
-    }
-
-    .hero h1{
-
-        font-size:1.7rem;
-
-    }
-
-    .hero p{
-
-        font-size:.9rem;
-
-    }
-
-    #sliderImage{
-
-        height:230px;
-
-    }
-
-    .card{
-
-        padding:20px;
-
-    }
-
-    input,
-    textarea{
-
-        font-size:.95rem;
-
-    }
-
-}
-
-
 /* =====================================================
    END OF STYLE.CSS
 ===================================================== */
