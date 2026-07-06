@@ -1,10 +1,7 @@
 // =========================
 // Mobile Menu
 // =========================
-
-// =========================
-// Mobile Menu
-// =========================
+alert("JavaScript Loaded");
 
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
